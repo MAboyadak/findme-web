@@ -1,0 +1,6 @@
+{
+    "require": {
+        "pear/http_request2": "2.2.1",
+        "subsan/microsoft-cognitive-face-php-api-client": "^1.0"
+    }
+}

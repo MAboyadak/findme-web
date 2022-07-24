@@ -1,0 +1,85 @@
+div.header{
+    background-image: url("../images/91.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15vh;
+    height: 80vh;
+}
+.main-nav{
+    background-color: rgba(126, 118, 240, 0.4);
+}
+ul.navbar-line{
+    list-style: none;
+    padding:0px;
+    margin: 0px;
+}
+ul.navbar-line li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.navbar-brand{
+    padding-left: 0px !important;
+    padding-right: 10px; 
+}
+.navbar-line li:hover , .navbar-brand:hover{
+    text-decoration: underline;
+}
+ul.navbar-line li a{
+    color:white;
+}
+.nav-link{
+    color:white !important;
+}
+.card {
+    background-color: rgba(151, 144, 255, 0.13);
+    padding:40px 30px 20px 30px;
+
+}
+.formpanel1,.formpanel2,.formpanel3,.formpanel4{
+    margin-bottom:25px;
+}
+hr {
+    display: block;
+    height: 1px;
+    max-width: 50%;
+    border: 0;
+    border-top: 1px solid #FFF;
+    padding: 0; 
+}
+input[type="text"],input[type="password"]{
+    background-color: rgba(214, 37, 126, 0.1);
+    border:none;
+    outline: none;
+    box-shadow: none;
+    color:white;
+    border-bottom: 1px solid #FFF;
+}
+input[type="text"]:focus{
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    outline: none;
+    color:white;
+    box-shadow: none;
+}
+input[type="password"]:focus{
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    outline: none;
+    color:white;
+    box-shadow: none;
+}
+input[type="text"]::placeholder,input[type="password"]::placeholder{
+    color: white;
+    font-size: 14px;
+}
+.icon-form{
+    margin-top:5px;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    height:7%;
+    line-height: 7vh;
+    background-color: rgb(27, 73, 92)
+  }

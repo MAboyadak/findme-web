@@ -1,0 +1,38 @@
+body{background-color:rgba(37, 75, 92, 0.7)}
+header{
+    color:#FFF;
+    height:5vh;
+    line-height: 5vh;
+}
+textarea{
+    resize: none;
+}
+.sidebar {
+    height:100vh;
+}
+.side-nav{
+    list-style: none;
+    margin-top:50px;
+}
+.side-nav li{
+    margin-bottom: 30px;
+
+}
+.side-nav li a{
+    color:white;
+
+}
+.side-nav li a:hover,
+.side-nav li a:focus {
+    outline: none;
+    background-color: #333 !important;
+    color:#FFF;
+    text-decoration-line: none
+
+}
+
+footer{
+    color:#FFF;
+    height:7vh;
+    line-height: 7vh;
+}
